@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F8BDCE1B-D62D-429F-B58D-C58CC51E0597}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44526.411400463" objectName="Aliases.browser.pageIndoZambiaBank.textboxUsername" objectLeft="123" objectTop="337" objectRight="443" objectBottom="382" clickPointX="287" clickPointY="345" imageFileName="tcvi15532421144880.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44526.411412037" objectName="Aliases.browser.pageIndoZambiaBank.textboxUsername" objectLeft="123" objectTop="337" objectRight="443" objectBottom="382" clickPointX="-1" clickPointY="-1" imageFileName="tcvi15533671144881.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44526.4114467593" objectName="Aliases.browser.pageIndoZambiaBank.passwordboxPassword" objectLeft="123" objectTop="421" objectRight="443" objectBottom="466" clickPointX="201" clickPointY="450" imageFileName="tcvi15536953144882.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44526.4114930556" objectName="Aliases.browser.pageIndoZambiaBank.passwordboxPassword" objectLeft="123" objectTop="421" objectRight="443" objectBottom="466" clickPointX="-1" clickPointY="-1" imageFileName="tcvi15538906144883.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44526.4115277778" objectName="Aliases.browser.pageIndoZambiaBank.buttonLogin" objectLeft="123" objectTop="535" objectRight="435" objectBottom="580" clickPointX="259" clickPointY="554" imageFileName="tcvi15543984144885.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
