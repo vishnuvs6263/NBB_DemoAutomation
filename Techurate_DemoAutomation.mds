@@ -7,7 +7,26 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{285EB738-0228-48C4-8378-FBBEFA43BED8}" version="14">
-		<children />
+		<children>
+			<testItem name="Login_IZB" key="{3B46E129-6273-4357-B7E6-E288BAE83A11}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F8BDCE1B-D62D-429F-B58D-C58CC51E0597}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-113" testCase="True">
+				<testParameters>
+					<param0 name="username_IZB" type="1" localVarName="" value="narayana" />
+					<param1 name="password_IZB" type="1" localVarName="" value="Test@123" />
+				</testParameters>
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="FundTransfer_IZB" key="{A5EEA236-9026-4A1D-AEAA-F401F8DBA6E8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E1F5C3C-25F8-4A31-8DB9-63BBAF268204}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-112" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="AddBeneficiary_IZB" key="{6ACB383F-C903-40CE-9230-365194AF458C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D61DC7F3-6DB2-45C7-932A-A1C8E1E6FDD1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{FD3C7D5C-587C-43DF-939E-93BE7D7067A6}">
 		<data Version="4">
