@@ -592,6 +592,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="imageMedia" Key="{973F5934-CC6C-4665-85C4-61C64FDE0518}">
+										<Image FileName="1266650150" Left="53" Top="109" Right="528" Bottom="219" />
+										<TypeInfo Item0="{75678F02-FA43-4876-967B-9D995C27BCB1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@src=&apos;./static/media/IZB-LOGO-LARGE.3a238c88.svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{0A3AC482-0211-4FFC-A1E4-6B2EB3461455}">
+										<Image FileName="-273333437" Left="613" Top="404" Right="743" Bottom="449" />
+										<TypeInfo Item0="{9787CBBB-2E39-42BA-8D77-F44CC754932B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{99D1232D-5CD0-4C5A-9B58-26AC8E713CC4}">
@@ -604,6 +631,60 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{A77D21CA-012D-4D5A-974A-252D5C271BB5}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{DC31EF49-4D92-4634-9F2C-8076A71F482A}">
+								<Image FileName="-738150104" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{D9036F2C-D4D7-4AA9-81AF-43698ED9C01F}">
+										<Image FileName="-738150104" Left="438" Top="0" Right="991" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{A38641E7-5640-449B-B997-72F71761392C}">
+												<Image FileName="-738150104" Left="440" Top="0" Right="953" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{DAD70D97-AD2B-4921-AE69-0D50F599B865}">
+														<Image FileName="-738150104" Left="440" Top="0" Right="936" Bottom="81" />
+														<TypeInfo Item0="{F66E0B71-6954-42AA-A39F-5B3BB509837C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -649,8 +730,19 @@
 				<Child Name="textboxCustomremarks" Owner="{8C9CC32C-27DB-4367-BF3A-F0BFAA61819D}" />
 				<Child Name="textnode3" Owner="{33ED1D0F-6FE1-452E-AD41-694800BEA74D}" />
 				<Child Name="textnode37916" Owner="{41D089FA-93B9-4EA7-8CE0-0D37A421EEF1}" />
+				<Child Name="imageMedia" Owner="{973F5934-CC6C-4665-85C4-61C64FDE0518}" />
+				<Child Name="buttonOk" Owner="{0A3AC482-0211-4FFC-A1E4-6B2EB3461455}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{99D1232D-5CD0-4C5A-9B58-26AC8E713CC4}" />
+		</Child>
+		<Child Name="explorer" Owner="{A77D21CA-012D-4D5A-974A-252D5C271BB5}">
+			<Child Name="wndShell_TrayWnd" Owner="{DC31EF49-4D92-4634-9F2C-8076A71F482A}">
+				<Child Name="ReBarWindow32" Owner="{D9036F2C-D4D7-4AA9-81AF-43698ED9C01F}">
+					<Child Name="MSTaskSwWClass" Owner="{A38641E7-5640-449B-B997-72F71761392C}">
+						<Child Name="MSTaskListWClass" Owner="{DAD70D97-AD2B-4921-AE69-0D50F599B865}" />
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

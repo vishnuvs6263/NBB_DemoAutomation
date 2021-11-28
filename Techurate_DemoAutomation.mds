@@ -7,26 +7,7 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{285EB738-0228-48C4-8378-FBBEFA43BED8}" version="14">
-		<children>
-			<testItem name="Login_IZB" key="{8D2D6CFD-883D-41AF-9F5B-5B7E2FC0EB65}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F8BDCE1B-D62D-429F-B58D-C58CC51E0597}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-67" testCase="True">
-				<testParameters>
-					<param0 name="username_IZB" type="1" localVarName="" value="narayana" />
-					<param1 name="password_IZB" type="1" localVarName="" value="Test@123" />
-				</testParameters>
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="AddBeneficiary_IZB" key="{61A9F508-5C99-435B-A1DA-C769FB362F84}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D61DC7F3-6DB2-45C7-932A-A1C8E1E6FDD1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-68" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="FundTransfer_IZB" key="{1C9C387D-A1DC-4D8B-A41E-62EC9AD870A2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E1F5C3C-25F8-4A31-8DB9-63BBAF268204}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-72" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-		</children>
+		<children />
 	</testItems>
 	<variables key="{FD3C7D5C-587C-43DF-939E-93BE7D7067A6}">
 		<data Version="4">
@@ -42,6 +23,12 @@
 				</Variable>
 				<Variable Name="Password4" Type="Password" Local="False">
 					<DefValue StrValue="3800390036003100450033004400330046003400440038004200330046003400410034004600440045004600380044003100320041004600" />
+				</Variable>
+				<Variable Name="Password5" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100360033004400310046003400440038003800420046003400450043003900380043003700390031003300410046003900430042003100390042003600360037004400330042003100" />
+				</Variable>
+				<Variable Name="Password6" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310039003300440033004600340044003800380042004600340045004300390038004300370039003100330041004600390042004200370039003800450031004400450032003700410042003400300034003200430030004400360045004200420043004100440043003300360031003000" />
 				</Variable>
 			</Items>
 		</data>
